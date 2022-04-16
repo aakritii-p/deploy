@@ -1,0 +1,84 @@
+<div class = "container">
+    <div class = "row">
+        <div class="AddVehicleTitleContainer">
+            <div class="addVehicleTitleContainter">
+                <div>Add Vehicle Details</div>
+            </div>
+            <div class="addVehicleBtnContainer">
+                <div class="addNewVehicleBtn" (click)="addNewVehicleBtn()">Add +</div>
+            </div>
+            <div *ngIf="newVehicleClicked">
+                <div class="formWrapper">
+                    <form>
+                        <div class="form-group modelid">
+                            <input type="text" class="form-control modelidInput" id = "modelid" name = "modelid" [(ngModel)] = Model.Modelid placeholder="Enter Model Id">  
+                        </div>
+                        <div class="form-group name">
+                            <input type="text" class="form-control input" id = "name" name = "name" [(ngModel)] = Model.name placeholder="Enter Vehicle Name">  
+
+                        </div>
+                        <div class="form-group modelType">
+                            <input type="text" class="form-control modelTypeInput" id = "modelType" name = "modelType" [(ngModel)] = Model.modelType placeholder="Enter Model Type">  
+                        </div>
+                        <div class="form-group ActualPrice">
+                            <input type="text" class="form-control ActualPriceInput" id = "ActualPrice" name = "ActualPrice" [(ngModel)] = Model.ActualPrice placeholder="Enter Actual Price">  
+                        </div>
+                        <div class="form-group ShowroomId">
+                            <input type="text" class="form-control ShowroomIdInput" id = "ShowroomId" name = "ShowroomId" [(ngModel)] = Model.ShowroomId placeholder="Enter ShowroomId">  
+                        </div>
+                        <div class="submitBtnContainer">
+                            <button type="submit" class="saveBtn" (click)="addVehicle()">Save</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="table2Wrapper">
+                <div class="containerTitle">
+                    <div class="oneTitle">Model ID</div>
+                    <div class="twoTitle">Vehicle Name</div>
+                    <div class="threeTitle">Model Type</div>
+                    <div class="fourTitle">Actual Price</div>
+                    <div class="fiveTitle">ShowRoom Id</div>
+                    <div class="sixTitle">Action</div>
+                </div>
+                <div class="containerListItems" *ngFor="let vehicle of vehicles; let i = index"[style.backgroud-color]="changeColorOne()">
+                    <div class="one">{{vehicle.Modelid}}</div>
+                    <div class="two">{{vehicle.name}}</div>
+                    <div class="three">{{vehicle.ModelType}}</div>
+                    <div class="four">{{vehicle.ActualPrice}}</div>
+                    <div class="five">{{vehicle.ShowroomId}}</div>
+                    <div class="six">
+                        <button class="btn btn-primary" (click)="editVehicle(i)">Edit</button> &nbsp;&nbsp;
+                        <button class="btn  btn-danger" (click)="deleteVehicle(i)">Delete</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="editVehicleTitleContainer">
+                <div class="">Edit Vehicle</div>
+            </div>
+            <form>
+                <div class="form-group modelid">
+                    <input type="text" class="form-control" id ="modelid" name = "modelid" [(ngModel)]="Model2.modelid" placeholder="Model ID here">
+                </div>
+                <div class="form-group name">
+                    <input type="text" class="form-control" id ="name" name = "name" [(ngModel)]="Model2.name" placeholder="Vehicle name here">
+
+                </div>
+                <div class="form-group modelType">
+                    <input type="text" class="form-control" id ="modelType" name = "modelType" [(ngModel)]="Model2.modelType" placeholder="Model Type here">
+                </div>
+
+                <div class="form-group ActualPrice">
+                    <input type="text" class="form-control" id ="ActualPrice" name = "ActualPrice" [(ngModel)]="Model2.ActualPrice" placeholder="Actual Price here">
+                </div>
+
+                <div class="form-group ShowroomId">
+                    <input type="text" class="form-control" id ="ShowroomId" name = "ShowroomId" [(ngModel)]="Model2.ShowroomId" placeholder="ShowRoom ID here">
+                </div>
+                <div class =" btn btn-dark" type = "submit" (click)="updateVehicle()">Update</div>
+            </form>
+            
+        </div>
+    </div>
+</div>

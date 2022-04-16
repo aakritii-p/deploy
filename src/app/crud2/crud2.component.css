@@ -1,0 +1,234 @@
+.containerTitle{
+    display: flex;
+    margin-top :20px;
+    font-size: 12px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.AddVehicleTitleContainter{
+    display: flex;
+
+}
+
+
+
+.addVehicleBtnContainer{
+    flex:1;
+    background: #f6f6f6;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.table2Wrapper{
+    margin-top: 20px;
+    padding: 20px;
+    
+    background: #f6f6f6;
+}
+
+.addNewVehicleBtn{
+    width: 70px;
+    height:30px;
+    text-align: center;
+    line-height: 28px;
+    color: white;
+    border-radius: 5px;
+    background: green;
+    margin-top: 18px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.addVehicleTitleContainter{
+    background: #f6f6f6;
+    padding: 20px 20px 0px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.editVehicleTitleContainer{
+    background: #f6f6f6;
+    padding: 20px 20px 0px 20px;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+    border-top-left-radius: 10px;
+}
+
+
+.modelid{
+    padding: 0px 15px 15px 20px;
+    background: #f6f6f6;
+}
+
+.modelType{
+    padding: 0px 15px 15px 20px;
+    background: #f6f6f6;
+}
+
+.ActualPrice{
+    padding: 0px 15px 15px 20px;
+    background: #f6f6f6;
+}
+
+.ShowroomId{
+    padding: 0px 15px 15px 20px;
+    background: #f6f6f6;
+}
+.name{
+    padding: 0px 15px 15px 20px;
+    background: #f6f6f6;
+}
+
+.position{
+    background: #f6f6f6;
+    padding:0px 15px 15px 20px;
+}
+
+.modelidInput{
+    border: none;
+    height: 32px;
+    padding-left: 10px;
+    width: 60%;
+    border-radius: 5px;
+}
+
+.modelTypeInput{
+    border: none;
+    height: 32px;
+    padding-left: 10px;
+    width: 60%;
+    border-radius: 5px;
+}
+
+.ActualPriceInput{
+    border: none;
+    height: 32px;
+    padding-left: 10px;
+    width: 60%;
+    border-radius: 5px;
+}
+
+.ShowroomIdInput{
+    border: none;
+    height: 32px;
+    padding-left: 10px;
+    width: 60%;
+    border-radius: 5px;
+}
+
+
+.input{
+    border:none;
+    height: 32px;
+    padding-left: 10px;
+    width: 60%;
+    border-radius: 5px;
+}
+
+.positionInput{
+    border: none;
+    height: 32px;
+    padding-left: 10px;
+    width: 60%;
+    border-radius: 5px;
+}
+
+.saveBtn{
+    background: green;
+    color: white;
+    border: none;
+    width: 70px;
+    height: 30px;
+    cursor:pointer;
+    border-radius: 3px;
+}
+
+.submitBtnContainer{
+    background: #f6f6f6;
+    padding: 0px 0px 20px 20px;
+}
+
+.one{
+    flex:1;
+    padding:10px;
+   
+    
+}
+.oneTitle{
+    flex:1;
+    padding:10px;
+    background: #444444;
+    color: white;
+}
+
+.two{
+    flex: 1;
+    
+    padding: 10px;
+
+
+}
+
+.twoTitle{
+    flex:1;
+    padding:10px;
+    background: #444444;
+    color: white;
+}
+
+.three{
+    flex: 1;
+    padding: 10px;
+
+}
+
+.threeTitle{
+    flex:1;
+    padding: 10px;
+    background: #444444;
+    color: white;
+}
+.four{
+    flex: 1;
+    padding: 10px;
+}
+
+.fourTitle{
+    flex:1;
+    padding: 10px;
+    background: #444444;
+    color: white;
+}
+.five{
+    flex: 1;
+    padding: 10px;
+}
+
+.fiveTitle{
+    flex:1;
+    padding: 10px;
+    background: #444444;
+    color: white;
+}
+
+.six{
+    flex: 1;
+    padding: 10px;
+}
+
+.sixTitle{
+    flex:1;
+    padding: 10px;
+    background: #444444;
+    color: white;
+}
+
+.containerListItems{
+    display:flex;
+
+}

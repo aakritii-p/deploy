@@ -1,0 +1,47 @@
+.Name{
+    padding: 0px 15px 15px 20px;
+    background: #f6f6f6;
+}
+
+.Batch{
+    padding: 0px 15px 15px 20px;
+    background: #f6f6f6;
+}
+
+.totalsalesperson{
+    padding: 0px 15px 15px 20px;
+    background: #f6f6f6;
+}
+
+.ShowroomId{
+    padding: 0px 15px 15px 20px;
+    background: #f6f6f6;
+}
+.totalvehicle{
+    padding: 0px 15px 15px 20px;
+    background: #f6f6f6;
+}
+
+.Objective{
+    padding: 0px 15px 15px 20px;
+    background: #f6f6f6;
+}
+
+.containertitle{
+    display: flex;
+    
+}
+
+.title{
+    background: #f6f6f6;
+    padding: 20px 20px 0px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.abtform{
+    margin-top: 100px;
+}
